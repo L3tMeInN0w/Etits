@@ -1,0 +1,74 @@
+
+@font-face{
+    font-family: "Genshin";
+    src: url(Font/zhcn.ttf) format("truetype")
+}
+*{
+    font-family: "Genshin";
+}
+body{
+    color: aliceblue;
+    background-image: url("images/1175581.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;   
+    background-size: cover;
+    margin-left: 50px;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+}
+#top{
+    gap: 40px;
+    margin-right: 350px;
+}
+.linkpage{
+    display: inline-block;
+    padding: 10px 20px;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}   
+#p1{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h1{
+    font-size: 50px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#p2{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#p3{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#p4{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 300px;
+    margin-bottom: 5px;
+
+}
+#p5{
+     font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
